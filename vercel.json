@@ -2,7 +2,7 @@
   "builds":[{
       "src":"Task/wsgi.py"
       "use": "@vercel/python"
-      "config": {"maxLammbdaSize": "15mb", "runtime": "python3.11"}
+      "config": {"maxLammbdaSize": "15mb", "runtime": "python3.9"}
   }]
   
   "routes": [
